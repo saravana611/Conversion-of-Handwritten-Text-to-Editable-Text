@@ -1,0 +1,8 @@
+torch
+torchvision
+nltk
+h5py
+numpy
+transformers
+opencv-python
+gradio
