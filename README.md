@@ -1,5 +1,13 @@
 # Conversion-of-Handwritten-Text-to-Editable-Text
 
+This project is based on Microsft Trocr model. For Fine tuning with Bentham dataset and adding calibration see the folder named Trocr_bentham_finetuned_calibration.
+
+
+- `Trocr_bentham_finetuned_calibration/`  
+  Contains a fine-tuned TrOCR (Transformer-based OCR) model trained on the Bentham handwriting dataset with calibration for improved confidence and accuracy.
+
+
+
 To test the project follow the steps
 
 **1.**  Clone the project.
@@ -17,7 +25,9 @@ cd Conversion-of-Handwritten-Text-to-Editable-Text
 ```
 pip install -r requirements.txt
 ```
-**4.** Download the model. 
+**4.** Download the Microsoft TROCR trocr-base-handwritten model from [Hugging face models](https://huggingface.co/models?search=microsoft/trocr)
+
+Note you can skip if using your own fine-tuned model.
 
 *  open terminal and run the below line 
 

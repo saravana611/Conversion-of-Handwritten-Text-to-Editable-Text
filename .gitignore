@@ -1,0 +1,8 @@
+# Ignore virtual environment
+trocrenv/
+
+# Ignore everything inside model/ folder
+model/*
+
+# But keep the model folder itself
+!model/.gitkeep
